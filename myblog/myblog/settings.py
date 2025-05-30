@@ -71,15 +71,14 @@ TEMPLATES = [
 # Email settings
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_HOST_USER = 'dima.patsora@gmail.com'  # your email
-EMAIL_HOST_PASSWORD = 'jtwudxlfkrlbtmbf'    # your application password
+EMAIL_HOST_USER = 'example@gmail.com'  # your email
+EMAIL_HOST_PASSWORD = '12345'    # your application password
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
 EMAIL_TIMEOUT = 20  # timeout in seconds
 
 WSGI_APPLICATION = 'myblog.wsgi.application'
-
 
 # Database
 # https://docs.djangoproject.com/en/5.2/ref/settings/#databases
